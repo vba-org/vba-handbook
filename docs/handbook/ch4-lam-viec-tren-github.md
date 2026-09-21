@@ -30,11 +30,13 @@ Tên kho viết thường, dùng dấu gạch ngang, không dấu tiếng Việt
 
 | Mức | Dùng cho | Điều kiện |
 |---|---|---|
-| **Public** | Tài liệu nội bộ công khai, báo cáo đã công bố, mã nguồn mở | Đã qua bước 5–6 của Chương 3, hoặc README ghi rõ "đang xây dựng" |
+| **Public** | Tài liệu nội bộ công khai, báo cáo đã công bố, mã nguồn mở | Chỉ khi nội dung đã hoàn tất bước 5–6 của Chương 3. Không có ngoại lệ |
 | **Internal** | Dự thảo đang soạn, tài liệu chỉ dành cho hội viên | Mặc định cho kho mới |
 | **Private** | Hồ sơ nhân sự, tài chính, tài liệu có ràng buộc bảo mật | Owner phê duyệt từng trường hợp |
 
-Kho mới tạo ở mức `Internal`. Chuyển sang `Public` là một hành động có kiểm soát: cần xác nhận của Ban thư ký rằng nội dung đã qua thẩm định Chương 3.
+Kho mới tạo ở mức `Internal`. Chuyển sang `Public` là một hành động có kiểm soát: cần xác nhận bằng văn bản của Ban thư ký rằng toàn bộ nội dung trong kho đã qua thẩm định Chương 3.
+
+Ghi chú “đang xây dựng”, nhãn “dự thảo” hay bất kỳ cảnh báo nào trong README **không** thay thế cho thẩm định và không phải căn cứ để đặt kho ở mức `Public`. Xem mục 4.8: nội dung trong kho `Public` là phát ngôn công khai của Hiệp hội trên thực tế.
 
 ## 4.4. Phân quyền
 
