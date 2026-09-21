@@ -1,0 +1,26 @@
+# CODEOWNERS — vba-handbook
+#
+# Người/nhóm liệt kê ở đây được GitHub tự động thêm làm reviewer cho mọi PR
+# chạm vào đường dẫn tương ứng. Xem mục 4.6 Chương 4.
+#
+# TODO: khi các team trong organization đã được tạo, thay @phdtrung bằng
+#   @vba-org/ban-thu-ky và @vba-org/tieu-ban-<tên> cho đúng mục 4.4
+#   (cấp quyền qua team, không cấp trực tiếp cho cá nhân).
+
+# Mặc định cho toàn kho
+*                                   @phdtrung
+
+# Sổ tay — từng chương có chủ sở hữu nội dung riêng
+/docs/handbook/ch1-*.md             @phdtrung
+/docs/handbook/ch2-*.md             @phdtrung
+/docs/handbook/ch3-*.md             @phdtrung
+/docs/handbook/ch4-*.md             @phdtrung
+/docs/handbook/ch5-*.md             @phdtrung
+/docs/handbook/ch6-*.md             @phdtrung
+
+# Biểu mẫu và quy trình
+/templates/                         @phdtrung
+
+# Cấu hình kho — chỉ owner
+/.github/                           @phdtrung
+/README.md                          @phdtrung
